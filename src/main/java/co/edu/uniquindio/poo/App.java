@@ -21,6 +21,7 @@ public class App {
         grupo1.agregarContacto(contacto3);
         grupo1.agregarContacto(contacto4);
         grupo1.agregarContacto(contacto5);
+        grupo1.agregarContacto(contacto6);
 
         Reunion reunion1 = new Reunion("reunion para programar", "08/08/2024", "11:00 am");
         reunion1.agregarAsistente(contacto1);
@@ -57,15 +58,16 @@ public class App {
         agenda.crearGrupo(grupo1);
         // elimino reunion
         // antes muestro las reuinones
-        
+        System.out.println("La agenda antes de eliminar -> " + agenda.toString());
         agenda.eliminarReunion(reunion2);
+        System.out.println("La agenda despues de eliminar -> " + agenda.toString());
         // ahora muestro nuevamente la agenda
 
-        System.out.println("La agenda antes de eliminar -> " + agenda.toString());
+        System.out.println("La agenda antes de modificar -> " + agenda.toString());
 
         agenda.modificarContacto("Valentina", "valen", "zaguanes", "318282", "val@");
         
-        System.out.println("La agenda despues de eliminar -> " + agenda.toString());
+        System.out.println("La agenda despues de modificar -> " + agenda.toString());
         
     }
 }
