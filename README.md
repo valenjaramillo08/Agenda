@@ -1,11 +1,11 @@
 # agenda
 
-Descripciín basisca de su Proyecto de POO ...
+Trabajo creando una agenda, programacion 1.
 
 # Autores
 
-- Autor 1
-- Autor 2
+- Valentina Orozco Jaramillo
+- Estaban Valencia
 
 # Herramientas
 
